@@ -1,0 +1,373 @@
+header {
+
+  display: flex;
+  
+  justify-content: space-between;
+  
+  background-color: #1dace0;
+  
+  color: #fff;
+  
+  font-size:18px;
+  
+  padding: 5px 0;
+
+}
+
+
+.icon {
+  
+  display: flex;
+  
+  align-items: center;
+  
+  margin-left: 80px;
+
+}
+
+.icon img {
+  
+  height: 60px;
+  
+}
+
+
+.icon .name strong {
+  
+  color: #eae51f;
+  
+}
+
+
+
+
+.header-right {
+  
+  display: flex;
+  
+  align-items: center;
+  
+  margin-right: 80px;
+
+}
+
+.header-right li:first-child {
+  
+  margin-right: 20px;
+
+}
+
+
+
+
+/*welcomeここから*/
+
+.welcome {
+  
+  display: flex;
+  
+  flex-direction: column;
+  
+  justify-content: center;
+  
+  text-align: center;
+  
+  background-image: url(../img/background1.jpg);
+  
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  
+  background-attachment: fixed;
+  
+  height: 100vh;
+  
+  color: #fff;
+  
+}
+
+
+.title {
+  
+  font-size: 64px;
+
+}
+
+.guideline {
+  
+  margin-top: 50px;
+  
+  font-size: 28px;
+  
+  font-weight: bold;
+/*  ↑700と一緒*/
+  
+}
+
+.guideline li:not(:first-child) {
+  
+  margin-top: 16px;
+  
+}
+
+
+.btn-group {
+  
+  margin-top: 60px;
+  
+}
+
+.btn {
+  
+  height: 55px;
+  
+  width: 170px;
+  
+  margin-left: 120px;
+  
+  cursor: pointer;
+  
+  color: #fff;
+  
+  font-weight: bold;
+  
+  font-size: 28px;
+  
+  border-radius: 10px;
+  
+}
+
+.btn:first-child {
+  margin-left: 0;
+}
+
+
+.register {
+  
+  background-color: rgba(29, 172, 224, .5);
+  
+  border: 3px solid rgba(29, 172, 224, .3);
+
+}
+
+.register:hover {
+  
+  background-color: rgb(29, 172, 224);
+
+}
+
+.login {
+  
+  background-color: rgba(236, 227, 35, .5);
+  
+  border: 3px solid rgba(236, 227, 35, .3);
+
+}
+
+.login:hover {
+  
+  background-color: rgb(236, 227, 35);
+
+}
+
+/*welcomeここまで*/
+
+
+
+/*curriculumここから*/
+
+.curriculum {
+
+  margin-top: 50px;
+
+}
+
+.sub-title {
+  
+  text-align: center;
+  
+  font-size: 36px;
+  
+}
+
+/*
+画像は300pxの正方形
+
+文字は24px、画像と文字の距離は20px
+
+画像と画像の距離は60px
+*/
+
+.img-box {
+  
+  margin-top: 50px;
+  
+  display: flex;
+  
+  justify-content: center;
+  
+}
+
+.img-box li img {
+  
+  height: 300px;
+  
+  width: 300px;
+  
+}
+
+.img-box li {
+  
+  display: flex;
+  
+  flex-direction: column;
+  
+  text-align: center;
+  
+  margin-right: 60px;
+  
+}
+
+.img-box li:last-child {
+  
+  margin-right: 0;
+  
+}
+
+.img-box li span {
+  
+  font-size: 24px;
+  
+  margin-top: 20px;
+}
+
+/*curriculumここまで*/
+
+
+/*
+contact→セクション自体の高さ350px
+
+img-boxのspanからの距離 50px
+
+padding top 50px
+
+
+
+contact usからフォームまでの距離→50px
+
+submitボタンまでの距離40px
+
+
+名前入力欄とメールアドレス入力欄の距離20px
+
+
+名前入力欄とメール入力欄の高さ50px、幅400px
+
+右側フォームと左側フォームの距離50px
+
+右側のフォームの高さ高さ120px、幅400px
+*/
+
+
+.contact {
+  
+  display: flex;
+  
+  flex-direction: column;
+  
+  justify-content: center;
+  
+  text-align: center;
+  
+  height: 350px;
+  
+  margin-top: 50px;
+  
+  padding-top: 50px;
+  
+  background-color: #ebf4f5;
+  
+}
+
+
+.contact .form {
+  
+  margin: 50px 0 40px;
+  
+  display: flex;
+  
+  justify-content: center;
+  
+}
+
+.form .name {
+  
+  margin-bottom: 20px;
+  
+}
+
+
+.form .name,
+.form .email {
+  
+  height: 50px;
+  
+  width: 400px;
+  
+  box-sizing: border-box;
+  
+  font-size: 16px;
+  
+}
+
+.form-left {
+  
+  margin-right: 50px;
+  
+}
+
+.form .inquiry {
+  
+  height: 120px;
+  
+  width: 400px;
+  
+  box-sizing: border-box;
+  
+  font-size: 16px;
+  
+}
+
+
+.contact button {
+  
+  background-color: #1dace0;
+  
+  color: #fff;
+  
+  border: 3px solid #1dace0;
+  
+  border-radius: 10px;
+  
+  font-size: 24px;
+  
+  padding: 15px 30px;
+  
+  box-sizing: border-box;
+  
+  transition-duration: 500ms;
+  
+}
+
+.contact button:hover {
+  
+  background-color: #fff;
+  
+  color: #1dace0;
+  
+  transition-duration: 500ms;
+  
+}
+
+
+
