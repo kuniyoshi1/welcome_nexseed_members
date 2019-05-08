@@ -1,3 +1,22 @@
+/*header固定*/
+
+.fixed {
+  
+  position: fixed;
+  
+  width: 100%;
+  
+  margin-top: -70px;
+
+}
+
+#margin-for-fixed {
+  
+  margin-top: 70px;
+  
+}
+
+
 header {
 
   display: flex;
@@ -368,6 +387,41 @@ submitボタンまでの距離40px
   transition-duration: 500ms;
   
 }
+
+
+/*footer*/
+footer {
+  
+  display: flex;
+  
+  justify-content: space-between;
+  
+  align-items: center;
+  
+  background-color: #233f51;
+  
+  color: #fff;
+  
+  font-size: 18px;
+  
+  padding: 5px;
+  
+}
+
+footer .footer-right {
+  
+  margin-right: 80px;
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 
